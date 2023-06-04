@@ -28,7 +28,7 @@ public class ash_skeleton extends EntityModel<Entity> {
 
 		ModelPartData arms = upper.addChild("arms", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 15.0F, -2.0F));
 
-		ModelPartData right_arm = arms.addChild("right_arm", ModelPartBuilder.create().uv(64, 18).cuboid(-1.0F, -37.0F, -1.0F, 2.0F, 38.0F, 2.0F, new Dilation(0.0F)), ModelTransform.pivot(-9.0F, 0.0F, 0.0F));
+		ModelPartData right_arm = arms.addChild("right_arm", ModelPartBuilder.create().uv(64, 18).cuboid(-1.0F, -37.0F, -1.0F, 2.0F, 38.0F, 2.0F, new Dilation(0.0F)), ModelTransform.of(-9.0F, 0.0F, 0.0F, 0.0F, -0.0873F, 0.0F));
 
 		ModelPartData left_arm = arms.addChild("left_arm", ModelPartBuilder.create().uv(72, 18).cuboid(-1.0F, -37.0F, -1.0F, 2.0F, 38.0F, 2.0F, new Dilation(0.0F)), ModelTransform.pivot(9.0F, 0.0F, 0.0F));
 
