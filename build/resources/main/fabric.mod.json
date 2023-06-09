@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "discoverymod",
+  "version": "1.0-SNAPSHOT",
+  "name": "Discovery",
+  "description": "A mod where you discover the world yourself.",
+  "authors": [
+    "JamDoggie",
+    "Seth"
+  ],
+  "contact": {
+    "website": "joe"
+  },
+  "license": "MIT",
+  "icon": "assets/discoverymod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "tooquick.discoverymod.client.DiscoverymodClient"
+    ],
+    "main": [
+      "tooquick.discoverymod.Discoverymod"
+    ]
+  },
+  "mixins": [
+    "discoverymod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.4",
+    "geckolib": ">=4.1.3"
+  }
+}
