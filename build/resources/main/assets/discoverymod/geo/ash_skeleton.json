@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ash_skeleton",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "ash_man",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "lower",
+					"parent": "ash_man",
+					"pivot": [0, 38, 0],
+					"cubes": [
+						{"origin": [-5, 38, -4], "size": [10, 2, 6], "uv": [19, 50]}
+					]
+				},
+				{
+					"name": "upper",
+					"parent": "lower",
+					"pivot": [0, 40, 2],
+					"cubes": [
+						{"origin": [-8, 40, -6], "size": [16, 18, 8], "uv": [16, 18]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "upper",
+					"pivot": [0, 58, 2],
+					"cubes": [
+						{"origin": [-4, 58, -6], "size": [8, 10, 8], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "arms",
+					"parent": "upper",
+					"pivot": [0, 55, 0]
+				},
+				{
+					"name": "right_arm",
+					"parent": "arms",
+					"pivot": [-9, 55, 0],
+					"rotation": [0, -5, 0],
+					"cubes": [
+						{"origin": [-10, 18, -1], "size": [2, 38, 2], "uv": [64, 18]}
+					]
+				},
+				{
+					"name": "left_arm",
+					"parent": "arms",
+					"pivot": [9, 55, 0],
+					"cubes": [
+						{"origin": [8, 18, -1], "size": [2, 38, 2], "uv": [72, 18]}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "lower",
+					"pivot": [0, 38, 0]
+				},
+				{
+					"name": "left_leg",
+					"parent": "legs",
+					"pivot": [2, 38, 0],
+					"cubes": [
+						{"origin": [2, 0, -2], "size": [2, 38, 2], "uv": [8, 18]}
+					]
+				},
+				{
+					"name": "right_leg",
+					"parent": "legs",
+					"pivot": [-2, 38, 0],
+					"rotation": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [2, 38, 2], "uv": [0, 18]}
+					]
+				}
+			]
+		}
+	]
+}
