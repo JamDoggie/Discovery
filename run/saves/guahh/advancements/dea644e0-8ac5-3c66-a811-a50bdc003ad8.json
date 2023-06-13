@@ -1,0 +1,61 @@
+{
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2023-06-13 06:05:08 -0400",
+      "minecraft:nether_wastes": "2023-06-13 05:59:40 -0400",
+      "minecraft:soul_sand_valley": "2023-06-13 06:00:34 -0400",
+      "minecraft:basalt_deltas": "2023-06-13 05:59:30 -0400",
+      "minecraft:warped_forest": "2023-06-13 05:59:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-06-13 05:59:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2023-06-13 05:59:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-06-13 05:59:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-06-13 05:59:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-06-13 05:59:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-06-13 05:59:05 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-06-13 05:59:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-06-13 06:10:55 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
+}

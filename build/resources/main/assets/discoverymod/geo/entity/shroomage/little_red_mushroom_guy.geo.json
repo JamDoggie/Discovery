@@ -1,0 +1,123 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.little_red_mushroom_guy",
+				"texture_width": 32,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "little_red_mushroom_guy",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "little_red_mushroom_guy",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{"origin": [-3, 1, -3], "size": [6, 4, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "mushroom",
+					"parent": "body",
+					"pivot": [0, 4, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{
+							"origin": [-4, 4, 0],
+							"size": [8, 7, 0],
+							"pivot": [0, 4, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [31.9, 9], "uv_size": [-7.8, 7]}
+							}
+						},
+						{
+							"origin": [-4, 4, 0],
+							"size": [8, 7, 0],
+							"pivot": [0, 4, 0],
+							"rotation": [0, 0, 0],
+							"uv": {
+								"north": {"uv": [24.1, 9], "uv_size": [7.8, 7]}
+							}
+						}
+					]
+				},
+				{
+					"name": "arms",
+					"parent": "body",
+					"pivot": [0, 2.5, 0]
+				},
+				{
+					"name": "arm_r",
+					"parent": "arms",
+					"pivot": [-3.5, 2.5, 0.5],
+					"rotation": [0, 0, 22.5],
+					"cubes": [
+						{
+							"origin": [-4, 1, 0],
+							"size": [1, 2, 1],
+							"uv": {
+								"north": {"uv": [11, 11], "uv_size": [1, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "arm_l",
+					"parent": "arms",
+					"pivot": [3.5, 2.5, 0.5],
+					"rotation": [0, 0, -22.5],
+					"cubes": [
+						{
+							"origin": [3, 1, 0],
+							"size": [1, 2, 1],
+							"uv": {
+								"north": {"uv": [16, 11], "uv_size": [1, 2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "body",
+					"pivot": [0, 1, 0]
+				},
+				{
+					"name": "leg_l",
+					"parent": "legs",
+					"pivot": [1.5, 1, 0],
+					"cubes": [
+						{
+							"origin": [1, 0, 0],
+							"size": [1, 1, 1],
+							"uv": {
+								"north": {"uv": [6, 11], "uv_size": [1, 1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "leg_r",
+					"parent": "legs",
+					"pivot": [-1.5, 1, 0],
+					"cubes": [
+						{
+							"origin": [-2, 0, 0],
+							"size": [1, 1, 1],
+							"uv": {
+								"north": {"uv": [1, 11], "uv_size": [1, 1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
